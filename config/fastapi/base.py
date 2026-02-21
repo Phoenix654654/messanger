@@ -1,0 +1,9 @@
+from pydantic_settings import BaseSettings
+
+class Settings(BaseSettings):
+    REAL_DATABASE_URL: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/postgres"
+
+    class Config:
+        env_file = ".env"
+
+settings = Settings()
