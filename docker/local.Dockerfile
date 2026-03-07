@@ -9,8 +9,8 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends build-essential gcc libpq-dev \
     && rm -rf /var/lib/apt/lists/*
 
-COPY requirements.txt /app/requirements.txt
+COPY requirements/ /app/requirements/
 RUN pip install --upgrade pip setuptools wheel \
-    && pip install --no-cache-dir -r /app/requirements.txt
+    && pip install --no-cache-dir -r /app/requirements/local.txt
 
 COPY . /app

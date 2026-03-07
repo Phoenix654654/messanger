@@ -1,0 +1,34 @@
+annotated-doc==0.0.4 # ограничения и правила для типов для pydantic
+annotated-types==0.7.0 # описание и документация типов для pydantic
+anyio==4.12.1 # асинхронного программирования в Python
+certifi==2026.1.4 # Набор корневых SSL-сертификатов
+email-validator==2.3.0
+fastapi==0.129.0 # фреймворк
+fastapi-cli==0.0.23 # официальный CLI-инструмент для FastAPI
+fastapi-cloud-cli==0.13.0 # инструмент для деплоя FastAPI-приложений в облако
+fastar==0.8.0 # для fastapi-cli
+h11==0.16.0 # Низкоуровневый HTTP-движок для клиента httpx
+httpcore==1.0.9 # реализация HTTP/1.1 протокола
+httptools==0.7.1 # HTTP-парсер, используется серверами
+httpx==0.28.1 # работатет как обычный request
+idna==3.11 # перобразовывает ASCII
+Jinja2==3.1.6 # для шаблонов HTML.
+MarkupSafe==3.0.3 # для безопасной вставки текста в HTML от XSS-атак
+pydantic==2.12.5
+pydantic-extra-types==2.11.0
+pydantic-settings==2.13.1
+pydantic_core==2.41.5
+python-dotenv==1.2.1 # работы с файлами .env
+python-multipart==0.0.22 # обработки multipart/form-data (загрузка файлов и форм)
+PyYAML==6.0.3 # работы с YAML (формат конфигурации).
+rignore==0.7.6 # исключения файлов по паттернам, аналог .gitignore
+sentry-sdk==2.53.0 # отслеживания ошибок и логирования в Sentry
+starlette==0.52.1 # Низкоуровневый ASGI-фреймворк, на котором строится FastAPI.
+typer==0.24.0 # Создание CLI-приложений на Python
+typing-inspection==0.4.2 # типизация fastapi
+typing_extensions==4.15.0 # типизация fastapi
+urllib3==2.6.3 # Библиотека для работы с HTTP-запросами низкого уровня
+uvicorn==0.41.0 # ASGI-сервер для запуска FastAPI-приложений
+websockets==16.0 # Работа с WebSocket протоколом в Python.
+uvloop==0.22.1 # uvloop — это быстрая замена стандартному event loop в Python's asyncio
+psycopg2==2.9.11
